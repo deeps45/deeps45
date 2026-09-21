@@ -56,12 +56,3 @@ Unsupervised anomaly detection on drone telemetry using a Joint Embedding Predic
 Curriculum-learning approach to training a PPO agent through Pokémon Red: the task is decomposed into learnable sequences (exit the house, explore to trigger the first event, win the rival battle), each with its own reward shaping and checkpoint.
 `Python` `PyTorch` `Stable-Baselines3` `PyBoy`
 
-### GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=deeps45&show_icons=true&theme=default&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=deeps45&layout=compact&hide_border=true&langs_count=8" />
-</p>
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=deeps45&hide_border=true" />
-</p>
