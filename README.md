@@ -1,12 +1,24 @@
-<h1 align="center">Siva Sai Deepank Manoj</h1>
-<p align="center"><b>Building AI agents reliable enough to act, not just answer</b></p>
-<p align="center">MCS, Computer Science · Texas A&M University</p>
+<table>
+<tr>
+<td width="150" align="center">
+<img src="./assets/profile.jpg" width="120" height="120" style="border-radius:50%;object-fit:cover" alt="Siva Sai Deepank Manoj" />
+</td>
+<td>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=deeps45&style=flat-square&color=blue" alt="profile views" />
-</p>
+# Siva Sai Deepank Manoj
 
-## Stack
+**Building AI agents reliable enough to act, not just answer**
+
+MCS, Computer Science · Texas A&M University
+[Email](mailto:deepanksiva@gmail.com) · [LinkedIn](https://www.linkedin.com/in/siva-sai-deepank-manoj-2802ab213/)
+
+</td>
+</tr>
+</table>
+
+---
+
+### Skills
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
@@ -22,24 +34,29 @@
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
 
-## 🚀 Featured projects
+### Featured Projects
 
 **[Computer-Use Automation System](https://github.com/deeps45/computer-use-automation)**
-An LLM drives a real browser UI with no API, records the successful run as a typed, versioned capability artifact, and replays it deterministically afterward with no model in the loop. Full error taxonomy (business outcome vs. recoverable vs. hard failure), guardrails, and a real human-in-the-loop escalation that hands off the live session to an operator. `TypeScript · Playwright · Claude Sonnet 4.5`
+An LLM drives a real browser UI with no API, records the successful run as a typed, versioned capability artifact, and replays it deterministically afterward with no model in the loop. Full error taxonomy (business outcome vs. recoverable vs. hard failure), guardrails, and a real human-in-the-loop escalation that hands off the live session to an operator.
+`TypeScript` `Playwright` `Claude Sonnet 4.5`
 
 **[Groundline — Agentic RAG Knowledge Assistant](https://github.com/deeps45/agentic-rag-assistant)**
-Hybrid BM25 + FAISS retrieval with reciprocal rank fusion, a cross-encoder re-rank pass, and a LangGraph plan → retrieve → synthesize → ground-check pipeline. Anti-hallucination by construction: citation validation, lexical support checks, and refusal when a claim isn't grounded — not just prompted for. `Python · LangGraph · LangChain · FAISS · React`
+Hybrid BM25 + FAISS retrieval with reciprocal rank fusion, a cross-encoder re-rank pass, and a LangGraph plan → retrieve → synthesize → ground-check pipeline. Anti-hallucination by construction: citation validation, lexical support checks, and refusal when a claim isn't grounded, not just prompted for.
+`Python` `LangGraph` `LangChain` `FAISS` `React`
 
 **[Distributed Event Processing Platform](https://github.com/deeps45/distributed-event-processing-platform)**
-Fault-tolerant event pipeline: async Kafka producers/consumers, Redis-backed idempotency, Postgres persistence, Prometheus monitoring, and a dead-letter queue for failure recovery, containerized and deployed to AWS with Terraform. Proves fault tolerance with actual chaos testing rather than asserting it. `Python · Kafka · FastAPI · Redis · Postgres`
+Fault-tolerant event pipeline: async Kafka producers/consumers, Redis-backed idempotency, Postgres persistence, Prometheus monitoring, and a dead-letter queue for failure recovery, containerized and deployed to AWS with Terraform. Fault tolerance proven with actual chaos testing rather than asserted.
+`Python` `Kafka` `FastAPI` `Redis` `Postgres`
 
-**[Drone Telemetry Anomaly Detection (JEPA)](https://github.com/deeps45/Drone-Anomaly-Detection-JEPA)** — *team project, CSCE 625*
-Unsupervised anomaly detection on drone telemetry using a Joint Embedding Predictive Architecture plus Local Outlier Factor, trained only on normal flight data with no attack labels. 35.9% composite-score improvement over an MLP + Isolation Forest baseline. Built with Yaswanth Reddy Yaradoddi and Ubaid Khan Mohammed. `Python · JEPA · PyTorch`
+**[Drone Telemetry Anomaly Detection (JEPA)](https://github.com/deeps45/Drone-Anomaly-Detection-JEPA)** — team project, CSCE 625
+Unsupervised anomaly detection on drone telemetry using a Joint Embedding Predictive Architecture plus Local Outlier Factor, trained only on normal flight data with no attack labels. 35.9% composite-score improvement over an MLP + Isolation Forest baseline. Built with Yaswanth Reddy Yaradoddi and Ubaid Khan Mohammed.
+`Python` `JEPA` `PyTorch`
 
 **[PokeRL — Playing Pokémon Red with Deep RL](https://github.com/deeps45/PokemonRL)**
-Curriculum-learning approach to training a PPO agent through Pokémon Red: the task is decomposed into learnable sequences (exit the house, explore to trigger the first event, win the rival battle), each with its own reward shaping and checkpoint. `Python · PyTorch · Stable-Baselines3 · PyBoy`
+Curriculum-learning approach to training a PPO agent through Pokémon Red: the task is decomposed into learnable sequences (exit the house, explore to trigger the first event, win the rival battle), each with its own reward shaping and checkpoint.
+`Python` `PyTorch` `Stable-Baselines3` `PyBoy`
 
-## 📊 GitHub stats
+### GitHub Activity
 
 <p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=deeps45&show_icons=true&theme=default&hide_border=true&count_private=true" />
@@ -48,7 +65,3 @@ Curriculum-learning approach to training a PPO agent through Pokémon Red: the t
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=deeps45&hide_border=true" />
 </p>
-
-## 📬 Contact
-
-[Email](mailto:deepanksiva@gmail.com) · [LinkedIn](https://www.linkedin.com/in/siva-sai-deepank-manoj-2802ab213/)
