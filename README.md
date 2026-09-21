@@ -16,6 +16,10 @@ MCS, Computer Science · Texas A&M University
 </tr>
 </table>
 
+<p align="center">
+<b>Impact:</b> +35.9% anomaly-detection accuracy over baseline on drone telemetry (JEPA) · chaos-tested a live Kafka pipeline to prove fault tolerance instead of asserting it · zero-model-in-the-loop deterministic replay for LLM-driven browser agents
+</p>
+
 ---
 
 ### Skills
@@ -55,4 +59,10 @@ Unsupervised anomaly detection on drone telemetry using a Joint Embedding Predic
 **[PokeRL — Playing Pokémon Red with Deep RL](https://github.com/deeps45/PokemonRL)**
 Curriculum-learning approach to training a PPO agent through Pokémon Red: the task is decomposed into learnable sequences (exit the house, explore to trigger the first event, win the rival battle), each with its own reward shaping and checkpoint.
 `Python` `PyTorch` `Stable-Baselines3` `PyBoy`
+
+### GitHub Activity
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=deeps45&hide_border=true&theme=default" alt="GitHub streak stats" />
+</p>
 
