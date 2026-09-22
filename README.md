@@ -7,7 +7,7 @@
 
 # Siva Sai Deepank Manoj
 
-**Building AI agents reliable enough to act, not just answer**
+**I build AI agents that can actually do things, not just talk about them.**
 
 MCS, Computer Science · Texas A&M University
 [Email](mailto:deepanksiva@gmail.com) · [LinkedIn](https://www.linkedin.com/in/siva-sai-deepank-manoj-2802ab213/)
@@ -16,9 +16,12 @@ MCS, Computer Science · Texas A&M University
 </tr>
 </table>
 
-<p align="center">
-<b>Impact:</b> +35.9% anomaly-detection accuracy over baseline on drone telemetry (JEPA) · chaos-tested a live Kafka pipeline to prove fault tolerance instead of asserting it · zero-model-in-the-loop deterministic replay for LLM-driven browser agents
-</p>
+Most of what's below started as "I wonder if I can get this to actually work" and turned into a real project. I like the part after the demo, when something breaks and you find out whether you actually built it right.
+
+A few things I'm proud of:
+- Got a drone anomaly detector to beat its baseline by 35.9%, using an architecture normally used for video prediction, not telemetry
+- Killed processes mid-run on a live Kafka pipeline to check it actually recovers, instead of assuming it would
+- Built an LLM agent that learns a UI once by watching the screen, then never needs the model again to repeat the task
 
 ---
 
@@ -41,23 +44,23 @@ MCS, Computer Science · Texas A&M University
 ### Featured Projects
 
 **[Computer-Use Automation System](https://github.com/deeps45/computer-use-automation)**
-An LLM drives a real browser UI with no API, records the successful run as a typed, versioned capability artifact, and replays it deterministically afterward with no model in the loop. Full error taxonomy (business outcome vs. recoverable vs. hard failure), guardrails, and a real human-in-the-loop escalation that hands off the live session to an operator.
+I taught an LLM to operate a banking-style web app it had never seen before: log in, look something up, fill out a form, just by watching screenshots and clicking around like a person would. Once it succeeds, the run gets saved as a replayable script that no longer needs the model, and the whole thing can pause and hand control to a human mid-task if it gets stuck.
 `TypeScript` `Playwright` `Claude Sonnet 4.5`
 
 **[Groundline — Agentic RAG Knowledge Assistant](https://github.com/deeps45/agentic-rag-assistant)**
-Hybrid BM25 + FAISS retrieval with reciprocal rank fusion, a cross-encoder re-rank pass, and a LangGraph plan → retrieve → synthesize → ground-check pipeline. Anti-hallucination by construction: citation validation, lexical support checks, and refusal when a claim isn't grounded, not just prompted for.
+A RAG assistant I built to stop making things up. It only answers with what it can point to in the source document and says "I don't know" instead of guessing. Hybrid search (keyword + embeddings) plus a re-ranking pass so the sources it cites are actually relevant, not just similar-sounding.
 `Python` `LangGraph` `LangChain` `FAISS` `React`
 
 **[Distributed Event Processing Platform](https://github.com/deeps45/distributed-event-processing-platform)**
-Fault-tolerant event pipeline: async Kafka producers/consumers, Redis-backed idempotency, Postgres persistence, Prometheus monitoring, and a dead-letter queue for failure recovery, containerized and deployed to AWS with Terraform. Fault tolerance proven with actual chaos testing rather than asserted.
+Kafka, Redis, Postgres, all the pieces you'd expect from an event pipeline. The part I actually cared about was proving it survives failure, so I wrote chaos tests that kill a consumer mid-run and check it recovers, instead of just hoping it would.
 `Python` `Kafka` `FastAPI` `Redis` `Postgres`
 
 **[Drone Telemetry Anomaly Detection (JEPA)](https://github.com/deeps45/Drone-Anomaly-Detection-JEPA)** — team project, CSCE 625
-Unsupervised anomaly detection on drone telemetry using a Joint Embedding Predictive Architecture plus Local Outlier Factor, trained only on normal flight data with no attack labels. 35.9% composite-score improvement over an MLP + Isolation Forest baseline. Built with Yaswanth Reddy Yaradoddi and Ubaid Khan Mohammed.
+Trained a model to flag abnormal drone telemetry after only ever seeing normal flights, no labeled attacks. Beat the baseline by 35.9%. Built with Yaswanth Reddy Yaradoddi and Ubaid Khan Mohammed.
 `Python` `JEPA` `PyTorch`
 
 **[PokeRL — Playing Pokémon Red with Deep RL](https://github.com/deeps45/PokemonRL)**
-Curriculum-learning approach to training a PPO agent through Pokémon Red: the task is decomposed into learnable sequences (exit the house, explore to trigger the first event, win the rival battle), each with its own reward shaping and checkpoint.
+Wanted to see if I could train an agent to beat Pokémon Red. Broke the game into small learnable pieces (leave the house, find the first battle, win it) instead of throwing PPO at the whole game at once.
 `Python` `PyTorch` `Stable-Baselines3` `PyBoy`
 
 ### GitHub Activity
@@ -65,4 +68,3 @@ Curriculum-learning approach to training a PPO agent through Pokémon Red: the t
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=deeps45&hide_border=true&theme=default" alt="GitHub streak stats" />
 </p>
-
